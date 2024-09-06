@@ -1,0 +1,18 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title class="Titulo">
+      <img src="assets/icon/tenis-de-mesa.png" alt="Icono de tenis de mesa" style="height: 24px; vertical-align: middle; margin-right: 8px;">
+      Maquina
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="custom-content">
+  <ion-header collapse="condense">
+  </ion-header>
+
+  <div style="padding: 16px;">
+    <ion-button expand="full" class="custom-button primary-button" (click)="CrearJugadaPage()">Crear Jugada</ion-button> 
+    <ion-button expand="full" class="custom-button secondary-button" style="margin-top: 8px;" (click)="VerJugadaPage()">Ver Jugadas</ion-button> 
+  </div>
+</ion-content>

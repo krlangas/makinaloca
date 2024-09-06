@@ -1,0 +1,26 @@
+ion-header {
+    --background: #6da65e;
+    ion-title {
+      color: #e9e7d9;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+  }
+  
+  ion-chip {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .table-cell {
+    background-color: #1d3a78;
+    height: 100px; /* Adjust as needed */
+    border: 1px solid white;
+  }
+  
+  ion-content {
+    --background: #8ca6b8; /* Background color for the main content */
+    padding: 16px;
+  }

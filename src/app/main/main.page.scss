@@ -1,0 +1,36 @@
+
+
+.Titulo {
+    color: #ffffff; /* White color for the text */
+    background-color: #4CAF50; /* Green background color */
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  /* Custom styles for the content */
+  .custom-content {
+    --background: #819aaf; /* Light blue background color */
+  }
+  
+  /* Custom styles for the buttons */
+  .custom-button {
+    --border-radius: 20px; /* Rounded corners */
+    --padding-start: 16px;
+    --padding-end: 16px;
+    --padding-top: 12px;
+    --padding-bottom: 12px;
+  }
+  
+  .primary-button {
+    --background: #ff5722; /* Deep orange background color */
+    --color: #ffffff; /* White text color */
+  }
+  
+  .secondary-button {
+    --background: #03a9f4; /* Light blue background color */
+    --color: #ffffff; /* White text color */
+  }
+
+  ion-toolbar {
+    --background: #4CAF50; /* Deep orange background color */
+  }
